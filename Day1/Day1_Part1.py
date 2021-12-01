@@ -5,8 +5,6 @@ Counter = 0
 linebefore = 0
 
 for line in Lines:
-    print(line)
-    print(linebefore)
     if int(line) > int(linebefore):
         Counter += 1
     linebefore = line
